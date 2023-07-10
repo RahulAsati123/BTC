@@ -1,0 +1,48 @@
+.header{
+  background-color: black;
+  color: white;
+  height: 80px;
+}
+.container{
+  width: 62%;
+  height: 100%;
+  margin:  auto;
+  display: flex;
+  /* column-gap: 20px; */
+  /* padding: 30px auto; */
+}
+.title1{
+  display: flex;
+  column-gap: 5px;
+}
+.logo img{
+  width: 100px;
+  height: 80px;
+}
+.title{
+  height: 100%;
+  padding: 20px 10px;
+}
+.list{
+  color: rgb(166, 165, 165);
+}
+
+.list ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  height: 100%;
+}
+.list ul li{
+  margin: 25px 15px;
+  /* padding: 0px 10px; */
+  font-size: 20px;
+}
+
+.list ul li:hover{
+  color: #f98416;
+}
+.title a{
+  text-decoration: none;
+  color: white;
+}

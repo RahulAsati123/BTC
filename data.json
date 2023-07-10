@@ -1,0 +1,866 @@
+{
+    "_id": {
+      "$oid": "648967a450025cdc83f064f5"
+    },
+    "AC Adatper": [
+      {
+        "id": 0,
+        "Que": "Choose an option",
+        "heading": "AC Adapter Type",
+        "subHeading": [],
+        "desc": [],
+        "option": [
+          "Dell Barrel Power Adapter",
+          "Dell Micro USB Power Adapter",
+          "USB Type-C adapter",
+          "Customer using Dell Docking Station"
+        ],
+        "options": {
+          "Dell Barrel Power Adapter": [
+            false,
+            1,
+            ""
+          ],
+          "Dell Micro USB Power Adapter": [
+            true,
+            "",
+            "T1 Transfer to No POST Troubleshooting"
+          ],
+          "USB Type-C adapter": [
+            true,
+            "",
+            "T1 Transfer to No POST Troubleshooting"
+          ],
+          "Customer using Dell Docking Station": []
+        }
+      },
+      {
+        "id": 1,
+        "Que": "Select from the options below",
+        "heading": "AC adapter Symptom Selection",
+        "subHeading": [],
+        "desc": [],
+        "option": [
+          "Adapter LED Flickering or turns off when plugged in / Reverse Current",
+          "Adapter LED is Off",
+          "Adapter LED is Intermittently ON or Flickering",
+          "Adapter not powering computer",
+          "AC adapter plugged in not charging",
+          "Adapter wattage not determined/Unknown",
+          "Adapter damage",
+          "Adapter noise issue",
+          "AC Adapter heating issues",
+          "\"Slow charger\" warning message"
+        ],
+        "options": {
+          "Adapter LED Flickering or turns off when plugged in / Reverse Current": [
+            true,
+            "",
+            "T1 Transfer to No Power Troubleshooting"
+          ],
+          "Adapter LED is Off": [
+            false,
+            2,
+            ""
+          ],
+          "Adapter LED is Intermittently ON or Flickering": [
+            false,
+            6,
+            ""
+          ],
+          "Adapter not powering computer": [
+            false,
+            9,
+            ""
+          ],
+          "AC adapter plugged in not charging": [false,13,""],
+          "Adapter wattage not determined/Unknown": [false,26,""],
+          "Adapter damage": [false,30,""],
+          "Adapter noise issue": [false,13,""],
+          "AC Adapter heating issues": [false,13,""],
+          "\"Slow charger\" warning message": [false,13,""]
+        }
+      },
+      {
+        "id": 2,
+        "Que": "Are there any damages?",
+        "heading": "Check the AC adapter/power cord and DC port/USB C for damage (Est. 1 Minute)",
+        "subHeading": [],
+        "desc": [
+          "Check if the connector pins are bent or missing/broken off.",
+          "Check if the power cord or DC cable is damaged or frayed.Types of damage can include kinks, cuts, loose ports, punctures such as animal bites.",
+          "Check whether the DC-in/USB C port on the system is loose or broken in any way.",
+          "The DC-in/USB C port should not be loose and barrel style connectors should have a center plastic stand in the center of the port as seen in the image.",
+          "Check for debris. Ensure the ports and connectors are free from debris."
+        ],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "T1 Transfer to Accidental Damage(Complete Care/Cover)"
+          ],
+          "No": [
+            false,
+            3,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "Que": "Did reseating the AC Adapter cable resolve the issue?",
+        "heading": "Reseat AC Adapter cable and brick after removing it from the power source and then check with a known good outlet",
+        "subHeading": [],
+        "desc": [
+          "Verify the AC power cord is correctly installed. Plug the power cord into the adapter brick by using the following steps.",
+          "Unplug the adapter from the portable computer and the wall outlet.",
+          "Remove the AC power cord from the adapter brick.",
+          "Use both the hands for attaching the power cord to the AC adapter brick. Hold the adapter in one hand, and place the power cord in position over the two or three prong connector on the adapter brick itself.",
+          "Using the palm of the hand, push the power cord in fully, until it clicks",
+          "Reconnect the AC adapter to the wall outlet. Verify the LED on the AC adapter turns on and stays on, with no flicker.",
+          "Connect Adapter to the system.",
+          "Ensure there are no other devices connected between the AC Adapter and the wall outlet."
+        ],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "S1 Reseating AC Adapter resolved the issue"
+          ],
+          "No": [
+            false,
+            4,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "Que": "Select the AC adapter LED status",
+        "heading": "Check for power indicators on AC power adapter (Est. 1 Minute)",
+        "subHeading": [
+          [
+            "Reset the AC adapter by performing the following steps",
+            [
+              "Disconnect the AC adapter from the system and the wall for 10 seconds.",
+              "Plug the AC adapter back into a known good wall outlet and check to see if the power LED turns on.",
+              "If it does not select the appropriate option below.",
+              "If the AC adapter LED turns on, plug the DC connector into the DC port of the system.",
+              "If the LED on the adapter goes out select the appropriate option below."
+            ]
+          ]
+        ],
+        "option": [
+          "LED stays lit",
+          "LED stays off",
+          "LED goes out when plugged into system",
+          "Diagnostics LED Unavailable"
+        ],
+        "options": {
+          "LED stays lit": [
+            false,
+            5,
+            ""
+          ],
+          "LED stays off": [
+            false,
+            5,
+            ""
+          ],
+          "LED goes out when plugged into system": [
+            true,
+            "",
+            "Transfer to No Power Troubleshooting"
+          ],
+          "Diagnostics LED Unavailable": [
+            false,
+            5,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "Que": "Choose an option:",
+        "heading": "Swap with a Known Good Adapter/Power Cord.",
+        "subHeading": [
+          [
+            "Swap the original Adapter/Power Cord with a known good and check for adapter functionality.",
+            []
+          ]
+        ],
+        "option": [
+          "Known Good Power Cord works fine",
+          "Known Good Adapter works fine",
+          "Known Good Unavailable",
+          "Known Good Adapter/Cord doesn't work"
+        ],
+        "options": {
+          "Known Good Power Cord works fine": [
+            true,
+            "",
+            "R1 Replace the AC Power Cable"
+          ],
+          "Known Good Adapter works fine": [
+            true,
+            "",
+            "R1 Replace AC Adapter"
+          ],
+          "Known Good Unavailable": [
+            true,
+            "",
+            "R1 Replace AC Adapter and Power Cord"
+          ],
+          "Known Good Adapter/Cord doesn't work": [
+            true,
+            "",
+            "R1 Replace DC-In Cable"
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "Que": "Are there any damages?",
+        "heading": "Check the AC adapter/power cord and DC port/USB C for damage (Est. 1 Minute)",
+        "subHeading": [],
+        "desc": [
+          "Check if the connector pins are bent or missing/broken off.",
+          "Check if the power cord or DC cable is damaged or frayed.Types of damage can include kinks, cuts, loose ports, punctures such as animal bites.",
+          "Check whether the DC-in/USB C port on the system is loose or broken in any way.",
+          "The DC-in/USB C port should not be loose and barrel style connectors should have a center plastic stand in the center of the port as seen in the image.",
+          "Check for debris. Ensure the ports and connectors are free from debris."
+        ],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "T1 Transfer to Accidental Damage(Complete Care/Cover)"
+          ],
+          "No": [
+            false,
+            7,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "Que": "Did reseating the AC Adapter cable resolve the issue?",
+        "heading": "Reseat AC Adapter cable and brick after removing it from the power source and then check with a known good outlet",
+        "subHeading": [],
+        "desc": [
+          "Verify the AC power cord is correctly installed. Plug the power cord into the adapter brick by using the following steps.",
+          "Unplug the adapter from the portable computer and the wall outlet.",
+          "Remove the AC power cord from the adapter brick.",
+          "Use both the hands for attaching the power cord to the AC adapter brick. Hold the adapter in one hand, and place the power cord in position over the two or three prong connector on the adapter brick itself.",
+          "Using the palm of the hand, push the power cord in fully, until it clicks",
+          "Reconnect the AC adapter to the wall outlet. Verify the LED on the AC adapter turns on and stays on, with no flicker.",
+          "Connect Adapter to the system.",
+          "Ensure there are no other devices connected between the AC Adapter and the wall outlet."
+        ],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "S1 Reseating AC Adapter resolved the issue"
+          ],
+          "No": [
+            false,
+            8,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "Que": "Did performing a hard reset resolve the issue?",
+        "heading": "Perform a hard reset",
+        "subHeading": [
+          [
+            "To perform a hard reset, follow these steps:",
+            [
+              "Shut down the computer completely. Do not suspend or hibernate.",
+              "Remove all external peripherals connected to the system. If no external peripherals are connected, proceed to step 3.",
+              "After unplugging, press the Power button for 30 seconds to drain any residual power from the motherboard.",
+              "Press the Power button to turn on the system and allow it to boot fully."
+            ]
+          ]
+        ],
+        "option": [
+          "Yes",
+          "No",
+          "Unable to reseat battery"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "S1 Hard reset resolved the issue"
+          ],
+          "No": [
+            false,
+            4,
+            ""
+          ],
+          "Unable to reseat battery": [
+            false,
+            4,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "Que": "Are there any damages?",
+        "heading": "Check the AC adapter/power cord and DC port/USB C for damage (Est. 1 Minute)",
+        "subHeading": [],
+        "desc": [
+          "Check if the connector pins are bent or missing/broken off.",
+          "Check if the power cord or DC cable is damaged or frayed.Types of damage can include kinks, cuts, loose ports, punctures such as animal bites.",
+          "Check whether the DC-in/USB C port on the system is loose or broken in any way.",
+          "The DC-in/USB C port should not be loose and barrel style connectors should have a center plastic stand in the center of the port as seen in the image.",
+          "Check for debris. Ensure the ports and connectors are free from debris."
+        ],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "T1 Transfer to Accidental Damage(Complete Care/Cover)"
+          ],
+          "No": [
+            false,
+            10,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "Que": "Did reseating the AC Adapter cable resolve the issue?",
+        "heading": "Reseat AC Adapter cable and brick after removing it from the power source and then check with a known good outlet",
+        "subHeading": [],
+        "desc": [
+          "Verify the AC power cord is correctly installed. Plug the power cord into the adapter brick by using the following steps.",
+          "Unplug the adapter from the portable computer and the wall outlet.",
+          "Remove the AC power cord from the adapter brick.",
+          "Use both the hands for attaching the power cord to the AC adapter brick. Hold the adapter in one hand, and place the power cord in position over the two or three prong connector on the adapter brick itself.",
+          "Using the palm of the hand, push the power cord in fully, until it clicks",
+          "Reconnect the AC adapter to the wall outlet. Verify the LED on the AC adapter turns on and stays on, with no flicker.",
+          "Connect Adapter to the system.",
+          "Ensure there are no other devices connected between the AC Adapter and the wall outlet."
+        ],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "S1 Reseating AC Adapter resolved the issue"
+          ],
+          "No": [
+            false,
+            11,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 11,
+        "Que": "Did performing a hard reset resolve the issue?",
+        "heading": "Perform a hard reset",
+        "subHeading": [
+          [
+            "To perform a hard reset, follow these steps:",
+            [
+              "Shut down the computer completely. Do not suspend or hibernate.",
+              "Remove all external peripherals connected to the system. If no external peripherals are connected, proceed to step 3.",
+              "After unplugging, press the Power button for 30 seconds to drain any residual power from the motherboard.",
+              "Press the Power button to turn on the system and allow it to boot fully."
+            ]
+          ]
+        ],
+        "option": [
+          "Yes",
+          "No",
+          "Unable to reseat battery"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "S1 Hard reset resolved the issue"
+          ],
+          "No": [
+            false,
+            12,
+            ""
+          ],
+          "Unable to reseat battery": [
+            false,
+            12,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 12,
+        "Que": "Does the system power ON only with Battery?",
+        "heading": "check for power",
+        "subHeading": [],
+        "desc": [],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            false,
+            4,
+            ""
+          ],
+          "No": [
+            true,
+            "",
+            "T1 Transfer to No Power Troubleshooting"
+          ]
+        }
+      },
+      {
+        "id": 13,
+        "Que": "Are there any damages?",
+        "heading": "Check the AC adapter/power cord and DC port/USB C for damage (Est. 1 Minute)",
+        "subHeading": [],
+        "desc": [
+          "Check if the connector pins are bent or missing/broken off.",
+          "Check if the power cord or DC cable is damaged or frayed.Types of damage can include kinks, cuts, loose ports, punctures such as animal bites.",
+          "Check whether the DC-in/USB C port on the system is loose or broken in any way.",
+          "The DC-in/USB C port should not be loose and barrel style connectors should have a center plastic stand in the center of the port as seen in the image.",
+          "Check for debris. Ensure the ports and connectors are free from debris."
+        ],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "T1 Transfer to Accidental Damage(Complete Care/Cover)"
+          ],
+          "No": [
+            false,
+            14,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 14,
+        "Que": "Did reseating the AC Adapter cable resolve the issue?",
+        "heading": "Reseat AC Adapter cable and brick after removing it from the power source and then check with a known good outlet",
+        "subHeading": [],
+        "desc": [
+          "Verify the AC power cord is correctly installed. Plug the power cord into the adapter brick by using the following steps.",
+          "Unplug the adapter from the portable computer and the wall outlet.",
+          "Remove the AC power cord from the adapter brick.",
+          "Use both the hands for attaching the power cord to the AC adapter brick. Hold the adapter in one hand, and place the power cord in position over the two or three prong connector on the adapter brick itself.",
+          "Using the palm of the hand, push the power cord in fully, until it clicks",
+          "Reconnect the AC adapter to the wall outlet. Verify the LED on the AC adapter turns on and stays on, with no flicker.",
+          "Connect Adapter to the system.",
+          "Ensure there are no other devices connected between the AC Adapter and the wall outlet."
+        ],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "S1 Reseating AC Adapter resolved the issue"
+          ],
+          "No": [
+            false,
+            15,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 15,
+        "Que": "Did performing a hard reset resolve the issue?",
+        "heading": "Perform a hard reset",
+        "subHeading": [
+          [
+            "To perform a hard reset, follow these steps:",
+            [
+              "Shut down the computer completely. Do not suspend or hibernate.",
+              "Remove all external peripherals connected to the system. If no external peripherals are connected, proceed to step 3.",
+              "After unplugging, press the Power button for 30 seconds to drain any residual power from the motherboard.",
+              "Press the Power button to turn on the system and allow it to boot fully."
+            ]
+          ]
+        ],
+        "option": [
+          "Yes",
+          "No",
+          "Unable to reseat battery"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "S1 Hard reset resolved the issue"
+          ],
+          "No": [
+            false,
+            16,
+            ""
+          ],
+          "Unable to reseat battery": [
+            false,
+            16,
+            ""
+          ]
+        }
+      },
+      {
+        "id":16,
+        "Que": "Is Dell provided/approved 45/65 wattage AC adapter being used?",
+        "heading": "Verify that the correct wattage AC adapter is being used",
+        "subHeading":[],
+        "desc":[],
+        "option":["Yes","No"],
+        "options":{
+          "Yes":[false,17,""],
+          "No":[true,"","E1 Advised Customer to use Dell Approved 45/65 wattage Adapter"]
+        }
+      },
+      {
+        "id":17,
+        "Que": "Does the system have the latest version of SupportAssist?",
+        "heading":"Verifying if SupportAssist is installed on the system",
+        "subHeading":[["Verifying if SupportAssist is installed on the system",[]],["SupportAssist is usually pre-installed on Dell laptops, desktops, and tablets.",[]],["To verify if SupportAssist is installed on the system:",["Press Windows + R.",
+        "The Run dialog box is displayed.",
+        "Type \"Appwiz.cpl\" and press Enter.",
+        "The Programs and Features window displays the list of programs that are installed on the system.",
+        "Check if Dell SupportAssist is displayed and it is the latest version (3.10.4.XXX)."
+        ]]],
+        "desc":[],
+        "option":["Yes","No"],
+        "options":{
+          "Yes":[false,18,""],
+          "No":[false,25,""]
+        }
+      },
+      {
+        "id":18,
+        "Que": "Choose a result of Diagnostics:",
+        "heading": "iDiags for AC Adapter - Charger Tests (Charger IDM)",
+        "subHeading":[["To run diagnostics on a connected dock, follow these instructions.",["Open SupportAssist, then select the Troubleshooting tab.",
+        "Click I want to check a specific piece of hardware"
+        ]],["Description:  This test leverages the BIOS/EC communication in the same manner as the battery test determine if charger connectivity can be detected and if the charger can produce a suitable amount of power for proper battery charging.",[]],["The Charger functionality expectations as per the design as follows:",["Charger will to be enumerated on notebooks/laptops always irrespective of connection state",
+        "Charger should not be enumerated on Desktops/AIOs"
+        ]],["Scenario 1: (if charger is not connected)",["If the charger was not connected when the test began and the system successfully detected this condition, the user will be prompted to connect the charger device to the system and select to continue the test.",
+        "If the system does not detect that the charger was connected, the user will receive the same prompt at which it can be tried again by selecting for the test to continue or the option to close the test.", 
+        "Closing the test at this point will be considered as a failure and the error will be recorded." 
+        ]],["Scenario 2: (if charger is connected)",["Initially, the connectivity test will be executed.",
+        "If the system currently has a charger attached, the user interface will produce a prompt for the user to remove the charger connection and select that the test should continue.", 
+        "If the system does not detect that the charger was removed, the user will receive the same prompt at which it can be tried again by selecting for the test to continue or the option to close the test.", 
+        "Closing the test at this point will be considered as a failure and the error will be recorded." 
+        ]]],
+        "desc":[],
+        "option":["PASS","FAIL"],
+        "options":{
+          "PASS":[false,19,""],
+          "FAIL":[true,"","R1 Replace AC Adapter"]
+        }
+      },
+      {
+        "id":19,
+        "Que": "What is the status of the AC adapter and battery in the BIOS?",
+        "heading":"Check status of the AC adapter and battery in BIOS",
+        "subHeading":[["BIOS Simulator",["Restart the system and keep tapping 'F2' as soon as the Dell logo appears.",
+        "Use arrow keys or mouse if supported to navigate in the BIOS.",
+        "Check the status of AC adapter",
+        "Check the status of the battery (not listed on all platforms)"
+        ]]],
+        "desc":[],
+        "option":["AC adapter detected and battery health is normal/not listed",
+        "AC adapter none/unknown/incorrect wattage reported and battery normal/not listed",
+        "Battery not detected or other battery error"
+        ],
+        "options":{
+          "AC adapter detected and battery health is normal/not listed":[false,20,""],
+        "AC adapter none/unknown/incorrect wattage reported and battery normal/not listed":[false,23,""],
+        "Battery not detected or other battery error":[true,"","Retest the Cable Error"]
+        }
+      },
+      {
+        "id":20,
+        "Que": "Is the issue resolved after changing the Battery settings?",
+        "heading":"Check for battery life management settings in BIOS and in any installed battery management software.",
+        "subHeading":[["Battery charge configuration in BIOS and some software applications in Windows can also determine when the battery is scheduled to charge.",[]],["Step 1: Check the Power Management Settings in BIOS. How to enter BIOS",["Make sure the system is powered all the way off. If not, press and hold the power button until the system turns off (no indications of power)",
+        "Press the power button.",
+        "Watch the system for one of the following Keyboard lights flash",
+       "F2 Setup, F12 Boot Options text on the monitor",
+        "Press the F2 key (or Fn+F2 for notebooks in some cases) to enter system setup. It may help to press the F2 key multiple times after the keyboard lights flash. An alternate method for entering setup is to press F12 to enter the one-time boot menu first then choose Enter Setup.",
+        "Navigate to \"Power Management\" option.",
+        "Change the \"Primary Battery Charge Configuration\" to \"Standard\""
+        ]],
+      ["Step 2: Change the settings to \"Standard\" in the Dell Power Manager Lite App.",["Open Settings from start menu, and then Click Apps.",
+      "Under Apps & features search for the system pre-installed \"Dell Power Manager Lite\" App",
+      "Change the settings to \"Standard\"."
+      ]]
+      ],
+      "desc":[],
+      "option":["Yes","No"],
+      "options":{
+        "Yes":[true,"","E1 Educated about battery saving feature in BIOS"], 
+        "No":[false,21,""]
+      }
+      },
+      {
+        "id":21,
+        "Que": "Does the battery charge when external devices disconnected?",
+        "heading": "Disconnect all the peripherals from the system",
+        "subHeading":[],
+        "desc":[],
+        "option":["Yes","No"],
+        "options":{
+          "Yes":[true,"","S1 Disconnecting external devices resolved the issue"],
+          "No":[false,22,""]
+        }
+      },
+      {
+        "id":22,
+        "Que": "Result of ePSA is:",
+        "heading": "Run ePSA/SupportAssist On-board Diagnostics",
+        "subHeading":[["To run ePSA, perform the following steps:",["Shutdown the computer",
+        "Press and Hold the Fn key and then press the power button. or Power on the system and keep tapping<F12> key then choose Diagnostics",
+        "The express test will start",
+        "If the diagnostics fail, make a note of the error code",
+        "Once the express diagnostics is completed click on Advanced icon on the bottom left corner of the screen and bring up the customer test",
+        "Choose the different fans listed in the menu and initiate the customer test for each of them"
+        ]],["If the system is not entering BIOS or the one time boot menu the issue may be No POST rather than No Boot or an issue with the keyboard. Check wireless keyboard batteries (if applicable) and/or try using a wired keyboard. If the system still won't respond to the keyboard, choose Unable to enter boot menu or BIOS to be transferred to the No POST Guided Resolution path.",[]]],
+        "desc":[],
+        "option":["AC adapter error",
+        "Battery error",
+        "Other error",
+        "No error",
+        "Unable to Run ePSA(due to less battery charge)"
+        ],
+        "options":{
+          "AC adapter error":[true,"","R1 Replace AC Adapter"],
+        "Battery error":[true,"","Retest the Cable Error"],
+        "Other error":[true,"","T1 Transfer to Dell Pre-Boot System Diagnostics"],
+        "No error":[false,23,""],
+        "Unable to Run ePSA(due to less battery charge)":[false,23,""]
+        }
+      },
+      {
+        "id":23,
+        "Que": "Choose an option:",
+        "heading":"Check with Known Good Adapter/Power Cord Swap with a Known Good Adapter/Power Cord.",
+        "subHeading":[["Swap the original Adapter/Power Cord with a known good and check for adapter functionality.",[]]],
+        "desc":[],
+        "option":["KNOWN GOOD ADAPTER WORKS FINE",
+        "KNOWN GOOD ADAPTER DOESN'T WORK",
+        "KNOWN GOOD POWER CORD WORKS FINE",
+        "KNOWN GOOD ADAPTER/POWER CORD UNAVAILABLE"
+        ],
+        "options":{
+          "KNOWN GOOD ADAPTER WORKS FINE":[true,"","R1 Replace AC Adapter"],
+        "KNOWN GOOD ADAPTER DOESN'T WORK":[true,"","R1 Replace DC-In Cable"],
+        "KNOWN GOOD POWER CORD WORKS FINE":[true,"","R1 Replace the AC power cable"],
+        "KNOWN GOOD ADAPTER/POWER CORD UNAVAILABLE":[false,24,""]
+        }
+      },
+      {
+        "id":24,
+        "Que":"Did BIOS update resolve the issue?(Current BIOS Version on the System - 1.22.0)",
+        "heading":"Perform BIOS Update",
+        "subHeading":[],
+        "desc":[],
+        "option":["Yes","No","Unable to Update BIOS"],
+        "options":{
+          "Yes":[true,"","S1 BIOS update resolved the issue"],"No":[true,"","R1 Replace DC-In Cable"],"Unable to Update BIOS":[true,"","R1 Replace DC-In Cable"]
+        }
+      },
+      {
+        "id":25,
+        "Que":"SupportAssist installed successfully?",
+        "heading":"Download / Install SupportAssist",
+        "subHeading":[["To download and install SupportAssist:",["Visit Dell.com/support/SupportAssist or Click the link Download SupportAssist for PCs and Tablets  to download SupportAssist.",
+        "After downloading, double-click the .exe file to install SupportAssist."
+        ]]],
+        "desc":[],
+        "option":["Yes","No/SupportAssist Unavailable or can't be downloaded"],
+        "options":{
+          "Yes":[false,18,""],"No/SupportAssist Unavailable or can't be downloaded":[false,19,""]
+        }
+      },
+      {
+        "id": 26,
+        "Que": "Are there any damages?",
+        "heading": "Check the AC adapter/power cord and DC port/USB C for damage (Est. 1 Minute)",
+        "subHeading": [],
+        "desc": [
+          "Check if the connector pins are bent or missing/broken off.",
+          "Check if the power cord or DC cable is damaged or frayed.Types of damage can include kinks, cuts, loose ports, punctures such as animal bites.",
+          "Check whether the DC-in/USB C port on the system is loose or broken in any way.",
+          "The DC-in/USB C port should not be loose and barrel style connectors should have a center plastic stand in the center of the port as seen in the image.",
+          "Check for debris. Ensure the ports and connectors are free from debris."
+        ],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "T1 Transfer to Accidental Damage(Complete Care/Cover)"
+          ],
+          "No": [
+            false,
+            27,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 27,
+        "Que": "Did reseating the AC Adapter cable resolve the issue?",
+        "heading": "Reseat AC Adapter cable and brick after removing it from the power source and then check with a known good outlet",
+        "subHeading": [],
+        "desc": [
+          "Verify the AC power cord is correctly installed. Plug the power cord into the adapter brick by using the following steps.",
+          "Unplug the adapter from the portable computer and the wall outlet.",
+          "Remove the AC power cord from the adapter brick.",
+          "Use both the hands for attaching the power cord to the AC adapter brick. Hold the adapter in one hand, and place the power cord in position over the two or three prong connector on the adapter brick itself.",
+          "Using the palm of the hand, push the power cord in fully, until it clicks",
+          "Reconnect the AC adapter to the wall outlet. Verify the LED on the AC adapter turns on and stays on, with no flicker.",
+          "Connect Adapter to the system.",
+          "Ensure there are no other devices connected between the AC Adapter and the wall outlet."
+        ],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "S1 Reseating AC Adapter resolved the issue"
+          ],
+          "No": [
+            false,
+            28,
+            ""
+          ]
+        }
+      },
+      {
+        "id": 28,
+        "Que": "Did performing a hard reset resolve the issue?",
+        "heading": "Perform a hard reset",
+        "subHeading": [
+          [
+            "To perform a hard reset, follow these steps:",
+            [
+              "Shut down the computer completely. Do not suspend or hibernate.",
+              "Remove all external peripherals connected to the system. If no external peripherals are connected, proceed to step 3.",
+              "After unplugging, press the Power button for 30 seconds to drain any residual power from the motherboard.",
+              "Press the Power button to turn on the system and allow it to boot fully."
+            ]
+          ]
+        ],
+        "option": [
+          "Yes",
+          "No",
+          "Unable to reseat battery"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "S1 Hard reset resolved the issue"
+          ],
+          "No": [
+            false,
+            29,
+            ""
+          ],
+          "Unable to reseat battery": [
+            false,
+            29,
+            ""
+          ]
+        }
+      },
+      {
+        "id":29,
+        "Que": "Is Dell provided/approved 65 wattage AC adapter being used?",
+        "heading": "Verify that the correct wattage AC adapter is being used",
+        "subHeading":[],
+        "desc":[],
+        "option":["Yes","No"],
+        "options":{
+          "Yes":[false,23,""],
+          "No":[true,"","E1 Advised Customer to use Dell Approved 65 wattage Adapter"]
+        }
+      },
+      {
+        "id": 26,
+        "Que": "Are there any damages?",
+        "heading": "Check the AC adapter/power cord and DC port/USB C for damage (Est. 1 Minute)",
+        "subHeading": [],
+        "desc": [
+          "Check if the connector pins are bent or missing/broken off.",
+          "Check if the power cord or DC cable is damaged or frayed.Types of damage can include kinks, cuts, loose ports, punctures such as animal bites.",
+          "Check whether the DC-in/USB C port on the system is loose or broken in any way.",
+          "The DC-in/USB C port should not be loose and barrel style connectors should have a center plastic stand in the center of the port as seen in the image.",
+          "Check for debris. Ensure the ports and connectors are free from debris."
+        ],
+        "option": [
+          "Yes",
+          "No"
+        ],
+        "options": {
+          "Yes": [
+            true,
+            "",
+            "T1 Transfer to Accidental Damage(Complete Care/Cover)"
+          ],
+          "No": [
+            true,
+            "",
+            "CTE 1. Contact your CTE(Centralized Tech Experts) for Assistance"
+          ]
+        }
+      }
+    ]
+  }

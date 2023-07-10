@@ -1,0 +1,31 @@
+.container2{
+    width:75%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.details{
+    background-color: rgb(13 62 100);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    border-radius: .375rem;
+    margin-bottom: 30px;
+    color: white;
+}
+.data{
+    padding: 20px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    border: 1px solid #ced4da;
+    
+}
+.queContainer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .queContainer img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }

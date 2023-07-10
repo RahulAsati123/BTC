@@ -1,0 +1,60 @@
+.mainContainer{
+    height: 100%;
+    
+    /* background-position: center; */
+    
+}
+.container1{
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 5% 2%;
+    /* background-image: url('../../../image/1.jpg'); */
+    background-color: rgb(13 62 100);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+.form {
+    width: 100%;
+    display: block;
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    padding: 0px 10px;
+    padding-top: 30px;
+    /* column-gap: 50px; */
+}
+.form-group label{
+    font-size: 20px;
+    
+    margin: 5px 0px;
+    width: 18%;
+}
+.drop{
+    width: 82%;
+    
+    display: flex;
+}
+.form-control{
+    /* width: 80%; */
+    color: #212529;
+    padding:10px;
+    background-color: #e5e5e5;
+}
+
+.form-group input{
+    width: 82%;
+    background-color: #e5e5e5;
+    margin: 0;
+}
+
+.buttons{
+    display: flex;
+    width: 98%;
+    column-gap: 50px;
+    margin-left: 18% ;
+      
+}
